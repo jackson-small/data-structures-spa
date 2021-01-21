@@ -62,14 +62,14 @@ public class Mouse {
 	}
 	
 	public void moveRight() {
-		this.yCoord = this.xCoord+1;
+		this.xCoord = this.xCoord+1;
 		ArrayList<Integer> cord = new ArrayList<>();
 		cord.add(this.xCoord);
 		cord.add(this.yCoord);
 		cordHistory.add(cord);
 	}
 	public void moveLeft() {
-		this.yCoord = this.xCoord-1;
+		this.xCoord = this.xCoord-1;
 		ArrayList<Integer> cord = new ArrayList<>();
 		cord.add(this.xCoord);
 		cord.add(this.yCoord);
