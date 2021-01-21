@@ -4,17 +4,25 @@ import java.util.*;
 public class DumbQueue {
     public MyStack s;
 
-    public DumbQueue(ArrayList<Integer>myStack){
-        this.s = new MyStack(myStack);
+    public DumbQueue(MyStack inS){
+        this.s = inS;
     }
 
-    public void dQueue(Integer k){ //This BiG O complexity does not seem as bad as it should be, with an ArrayList it can just .add to the end
-        this.s.push(k);
+    public void dQueue(Integer k){ // 0(stackLength)
+        ArrayList<Integer> temp = new ArrayList<Integer>();
+        for(int i =0; i< this.s.stackLength(); i++){
+            temp.add(s.getItem(i));
+        }
+        temp.add(k);
+        this.s = new MyStack(temp);
     }
 
-    public void deDQueue(){ //because I used a MyStack the item is an ArrayList which has a .remove funtion, if I was suppoased to do this with
-        //a normal list I can redo it if needed.
-        this.s.pop(0);
+    public void deDQueue(){ //O(stacklength-1)
+        ArrayList<Integer> temp = new ArrayList<Integer>();
+        for(int i =1; i< this.s.stackLength(); i++) {
+            temp.add(s.getItem(i));
+        }
+        this.s = new MyStack(temp);
     }
 
     public void printDQ(){

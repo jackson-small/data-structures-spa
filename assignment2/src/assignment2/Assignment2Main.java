@@ -21,14 +21,14 @@ public class Assignment2Main {
         MyStack myStack = new MyStack(aList);
         System.out.println("MyStack Methods:");
         myStack.printStack();
-        myStack.pop(0);
+        myStack.pop();
         myStack.printStack();
         myStack.push(3);
         myStack.printStack();
         System.out.println();
 
 
-        int [] que = {2,4,6,10};
+        ArrayList<Integer> que = new ArrayList<Integer> (Arrays.asList(2,4,6,10));
         MyQueue currentQ = new MyQueue(que);
         System.out.println("MyQueue Methods:");
         currentQ.printQueue();
@@ -39,7 +39,8 @@ public class Assignment2Main {
         System.out.println();
 
         ArrayList<Integer> bList = new ArrayList<Integer> (Arrays.asList(5,12,13,23));
-        DumbQueue dQ = new DumbQueue(bList);
+        MyStack bStack = new MyStack(bList);
+        DumbQueue dQ = new DumbQueue(bStack);
         System.out.println("DumbQueue Methods:");
         dQ.printDQ();
         dQ.dQueue(2);
