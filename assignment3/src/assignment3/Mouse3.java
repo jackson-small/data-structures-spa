@@ -107,7 +107,10 @@ public class Mouse3 {
 					}
 					valDirection[1] = i;
 					return valDirection;
-				} else if(i ==9){
+				} else if(i ==9 && this.cordHistory.size()>=2){
+					valDirection[1] = i;
+					return valDirection;
+				} else if(i==10){
 					valDirection[1] = i;
 					return valDirection;
 				}
@@ -132,9 +135,10 @@ public class Mouse3 {
 	}
 
 	public void moveBack(){
-		this.xCoord = this.cordHistory.get(this.cordHistory.size()-2).get(0);
-		this.xCoord = this.cordHistory.get(this.cordHistory.size()-2).get(1);
-		this.cordHistory.remove(this.cordHistory.size()-1);
+		this.cordHistory.remove(this.cordHistory.size() - 1);
+		this.xCoord = this.cordHistory.get(this.cordHistory.size() - 1).get(0);
+		this.yCoord = this.cordHistory.get(this.cordHistory.size() - 1).get(1);
+
 	}
 
 	public void moveLeft() {

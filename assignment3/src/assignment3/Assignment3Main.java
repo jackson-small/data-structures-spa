@@ -15,7 +15,7 @@ public class Assignment3Main {
         } else {
             myGrid.changeSpot(2);
         }
-        while(m.scan(myGrid)[1]!=10) {
+        while(m.scan(myGrid)[1]<10) {
             if(m.scan(myGrid)[0] == 0 && m.scan(myGrid)[1]==1){
                 m.moveDown();
                 myGrid.changeSpot(2);
@@ -43,13 +43,10 @@ public class Assignment3Main {
                 myGrid.changeSpot(2);
             }
             else if(m.scan(myGrid)[1]==9){
-                System.out.println("Blocked");
                 m.moveBack();
-                m.printInformation();
             }
-            myGrid.printGrid();
-            m.printInformation();
         }
+        myGrid.printGrid();
         m.printInformation();
     }
 }
