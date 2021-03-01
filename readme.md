@@ -3,7 +3,7 @@
 This repo is for my twelfth-grade Topics in CS Class.
 It contains each assignment (and it's link) of the semester along with a description of the assignment.
 
-## Assigment1
+## Assignment1
 
 [Assignment Description][1]
 
@@ -14,29 +14,29 @@ on our java ability by creating a Mouse class that navigates on a grid.
 
 
 
-##Assignment 2
+## Assignment 2
 
 [Assignment Description][2]
 
-[2]:https://docs.google.com/document/d/179sECfjMzdR3NBe3PHTJZ3HNpJjzuD3Qqd3k-I0eLqA/edit?usp=sharing
+[2]: https://docs.google.com/document/d/179sECfjMzdR3NBe3PHTJZ3HNpJjzuD3Qqd3k-I0eLqA/edit?usp=sharing
 
 In this I replicated ArrayList, stack and, queue objects. 
 I then calculated the Big O complexity of each object's methods.
 
 
 
-##Assignment 3
+## Assignment 3
 
 [Assignment Description][3]
 
-[4]:https://docs.google.com/document/d/1dSnq0lC3ci8NlBHaDiix1uBliIhxm7ObFmGehRQ-Z9A/edit?usp=sharing
+[3]:https://docs.google.com/document/d/1dSnq0lC3ci8NlBHaDiix1uBliIhxm7ObFmGehRQ-Z9A/edit?usp=sharing
 
 In this assignment I created a Grid object for the mouse object from assignment 1 to navigate.
 The grid contained integer values for each point and the values would change based on the mouse's movement.
 
 
 
-##Assignment 4
+## Assignment 4
 
 [Assignment Description][4]
 
@@ -47,7 +47,7 @@ I then created many methods to manipulate the list.
 
 
 
-##Assignment5
+## Assignment5
 
 [Assignment Description][5]
 
@@ -58,7 +58,7 @@ The second part was to test the efficiency of the different data structures by a
 
 
 
-##Assignment6
+## Assignment6
 
 [Assignment Description][6]
 
@@ -70,7 +70,7 @@ The next part was some simple recursion problems.
 
 
 
-##Assignment7
+## Assignment7
 
 Assignment seven had no deliverables and was mainly a catch up assignment, the next part was to create this markdown file.
 
