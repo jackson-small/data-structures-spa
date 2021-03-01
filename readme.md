@@ -13,6 +13,7 @@ This assignment was to get start off the semester by creating a class repository
 on our java ability by creating a Mouse class that navigates on a grid.
 
 
+
 ##Assignment 2
 
 [Assignment Description][2]
@@ -21,6 +22,7 @@ on our java ability by creating a Mouse class that navigates on a grid.
 
 In this I replicated ArrayList, stack and, queue objects. 
 I then calculated the Big O complexity of each object's methods.
+
 
 
 ##Assignment 3
@@ -32,6 +34,8 @@ I then calculated the Big O complexity of each object's methods.
 In this assignment I created a Grid object for the mouse object from assignment 1 to navigate.
 The grid contained integer values for each point and the values would change based on the mouse's movement.
 
+
+
 ##Assignment 4
 
 [Assignment Description][4]
@@ -40,6 +44,8 @@ The grid contained integer values for each point and the values would change bas
 
 In this assignment I created a LinkedList object which was made with nodes containing an value and pointer to another node.
 I then created many methods to manipulate the list.
+
+
 
 ##Assignment5
 
@@ -50,6 +56,8 @@ I then created many methods to manipulate the list.
 This assignment I made a HashSet object as well as the add(), and isInSet() methods.
 The second part was to test the efficiency of the different data structures by adding a different number of random integers and then seeing if they contain those integers.
 
+
+
 ##Assignment6
 
 [Assignment Description][6]
@@ -58,6 +66,8 @@ The second part was to test the efficiency of the different data structures by a
 
 In this assignment I created a Binary Search Tree (BST) object and the methods add() and print().
 The next part was some simple recursion problems.
+
+
 
 
 ##Assignment7
