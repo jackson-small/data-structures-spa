@@ -1,5 +1,5 @@
-#Data Structures SPA
-###Jackson Small
+# Data Structures SPA
+### Jackson Small
 This repo is for my twelfth-grade Topics in CS Class.
 It contains each assignment (and it's link) of the semester along with a description of the assignment.
 
